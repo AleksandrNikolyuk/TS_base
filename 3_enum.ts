@@ -9,7 +9,7 @@ enum Membership {
     Premium
 }
 
-const membership = Membership.Standart 
+const membership = Membership.Standart
 console.log(membership); // 1
 // Если задавать enum таким образом то они присваивают значения как в массиве 0, 1 ...
 
@@ -27,7 +27,7 @@ enum Midea {
 }
 
 const socialMedia = Midea.INSTAGRAM // Получаем уже сразу значение а не индекс
-console.log(socialMedia); // INSTAGRAM
+console.log(socialMedia); // 'instagram'
 
 
 

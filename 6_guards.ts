@@ -1,7 +1,7 @@
-// Guards - это вспомогательные конструкции в TS кот позволяют работать с типами
+// Guards - это вспомогательные конструкции в TS которая позволяет работать с типами
 
 function strip(x: string | number) {
-    if(typeof x === 'number') {
+    if (typeof x === 'number') {
         return x.toFixed(2)
     }
     return x.trim()
@@ -32,8 +32,8 @@ function handle(res: myResponse | myError) {
 
 type AlertType = 'success' | 'danger' | 'warning'
 
-function setAlert (type: AlertType) {
+function setAlert(type: AlertType) {
 
 }
-setAlert ('success')
-setAlert ('warning')
+setAlert('success')
+setAlert('warning')
